@@ -1,22 +1,22 @@
-INSERT INTO department (name) VALUES 
-("Sales Lead"),
-("Salesperson"),
-("Software Engineer"),
-("Account Manager"),
-("Accountant");
-("Legal Team Lead"),
-("Lawyer");
+-- INSERT DATA
+INSERT INTO department (name)
+VALUES ('Sales'), ('Engineering'), ('Finance'), ('Legal');
 
--- Role Table
-INSERT INTO role (title, salary, department_id)VALUES 
-('Sales Representative', 50000.00, 1),
-('Marketing Coordinator', 45000.00, 2),
-('Financial Analyst', 60000.00, 3);
-   
--- Employee table
-INSERT INTO employee (first_name, last_name, role_id, manager_id) VALUES
-('John', 'Doe', 1, NULL),
-('Jane', 'Smith', 2, 1),
-('Todd', 'Evens', 3, 1),
-('Abby', 'Johnson', 1, 2),
-('Johnny', 'Depp', 3, 2);
+INSERT INTO role (title, salary, department_id)
+VALUES ('Sales Lead', 100000.00, 1),
+    ('Salesperson', 80000.00, 1),
+    ('Lead Engineer', 150000.00, 2),
+    ('Software Engineer', 120000.00, 2),
+    ('Accountant', 125000.00, 3),
+    ('Legal Team Lead', 250000.00, 4),
+    ('Lawyer', 190000.00, 4);
+
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
+VALUES ('John', 'Doe', 1, NULL),
+    ('Johnny', 'Handly', 2, 1),
+    ('Jane', 'Smith', 3, NULL),
+    ('Abby', 'Johnson', 4, 3),
+    ('Todd', 'Evans', 5, NULL),
+    ('Will', 'Tate', 6, 5),
+    ('Brenda', 'Williams', 7, 5),
+    ('Tom', 'Ford', 8, 5);
