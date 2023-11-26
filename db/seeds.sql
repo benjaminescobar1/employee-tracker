@@ -1,4 +1,6 @@
--- INSERT DATA
+SET FOREIGN_KEY_CHECKS=0;
+
+-- Department Data
 INSERT INTO department (name)
 VALUES ('Sales'), ('Engineering'), ('Finance'), ('Legal');
 

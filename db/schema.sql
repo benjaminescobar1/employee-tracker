@@ -1,3 +1,9 @@
+-- CREATE DATABASE
+CREATE DATABASE employeetracker_db;
+
+-- USE DATABASE
+USE employeetracker_db;
+
 -- CREATE TABLES
 CREATE TABLE department (
     id INT NOT NULL AUTO_INCREMENT,
