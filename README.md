@@ -31,7 +31,7 @@
 
 
   ## License
-  MIT. Link to license document ![License: MIT](https://opensource.org/licenses/MIT)
+  MIT
 
   ## Questions:
   Any questions reach out to bescobar1992@gmail.com or benjaminescobar1 on github.
@@ -40,4 +40,6 @@
   https://drive.google.com/file/d/1dCYvO1we2RFkImN9HFw_D6xU-oIzv51L/view
 
   ## Screenshot
+  ![Screenshot 2023-11-26 144037](https://github.com/benjaminescobar1/employee-tracker/assets/135399618/dfd8d2c6-f005-49fe-affa-27cef20277d6)
+
  
